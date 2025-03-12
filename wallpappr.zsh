@@ -77,7 +77,7 @@ done < <(find "$wallpaperDir" -type f -name "*.png" | sort)
 # Exit if no wallpapers found
 if [ ${#wallpaperFiles[@]} -eq 0 ]; then
     echo "No wallpaper files found"
-    exit 0
+    exit 1
 fi
 echo "Found ${#wallpaperFiles[@]} wallpapers"
 
