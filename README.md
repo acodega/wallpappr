@@ -10,7 +10,7 @@ From a local folder path, Wallpappr dynamically generates the list of wallpaper 
 Using `sip`, Wallpappr automatically handles generating the preview file (yourwallpaper-preview.png) if it doesn't exist. Otherwise, if swiftDialog loads full resolution images, it has to shrink them to display correctly and that causes a visual delay in the dialog box launching. When deploying a new wallpaper, only the full resolution image needs to be installed.
 
 
-Wallpappr generates each wallpaper's "friendly name" two ways. It will use the `kMDItemDescription` file attribute when available, if not it tries to make a friendly name from the file name. Ex: `contoso-red-waves.png` would become "Contoso Red Waves". It also works if there are spaces or underscores between words.
+Wallpappr generates each wallpaper's "friendly name" two ways. It will use the `kMDItemDescription` file attribute when available, if not it tries to make a friendly name from the file name. Ex: `contoso-red-waves.png` would become "Contoso Blue Waves". It also works if there are spaces or underscores between words.
 
 Why use `kMDItemDescription`? Sometimes the friendly name you want doesn't make sense as a file name. `contoso-nyc-headquarters.png` would become Contoso Nyc Headquarters, instead of capitalizing NYC. Needing to use non alphanumeric characters (&, #, $) would also complicate things.
 
