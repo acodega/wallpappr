@@ -16,4 +16,4 @@ Why use `kMDItemDescription`? Sometimes the friendly name you want doesn't make 
 
 `kMDItemDescription` can be set by running `xattr -w com.apple.metadata:kMDItemDescription '"Contoso Sales & Marketing $1M Club!"' /path/to/wallpaper.png`. **You must use single and double quotes.**
 
-As written, Wallpappr is designed to be used with Jamf but it can be adapted for other MDM. In fact, the only Jamf-specific commands are the pre-checks (to install swiftDialog, desktoppr, your wallpaper) and the Jamf command to update the device's inventory information.
+As written, Wallpappr is designed to be used with Jamf but it can be adapted for other MDM. In fact, the only Jamf-specific commands are the pre-checks (to install swiftDialog, desktoppr, your wallpaper) and the Jamf command while exiting to update the device's inventory information.
