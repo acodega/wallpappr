@@ -1,4 +1,6 @@
 # wallpappr
+https://github.com/user-attachments/assets/3c1618ab-0675-475d-a1fb-e0dd06719299
+
 An easy to deploy dynamic wallpaper chooser for Self Service
 
 Wallpappr uses [swiftDialog](https://github.com/swiftdialog/swiftdialog) and [desktoppr](https://github.com/scriptingosx/desktoppr) to let a user change their wallpaper from a displayed collection of your organization wallpapers.
