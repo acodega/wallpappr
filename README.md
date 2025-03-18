@@ -1,5 +1,6 @@
 # wallpappr
 https://github.com/user-attachments/assets/3c1618ab-0675-475d-a1fb-e0dd06719299
+Demo wallpaper courtesy of [Basic Apple Guy](https://basicappleguy.com/)
 
 An easy to deploy dynamic wallpaper chooser for Self Service
 
